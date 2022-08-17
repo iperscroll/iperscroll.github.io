@@ -1,0 +1,116 @@
+
+import
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+}
+
+header.header img {
+    width: 100px;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: green;
+}
+
+section.top-page {
+    background: url(../images/heart.jpg) ;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+}
+
+.landing-page {
+    padding: 20px 50px;
+}
+
+.slogan {
+    color: blueviolet;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scroll-down {
+    color: antiquewhite;
+    position: absolute;
+    bottom: 20px;
+}
+
+/* menu de navigation */
+nav.navigation-haut {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 500px;
+    margin-left: 30px;
+    color: antiquewhite;
+    background-color: fuchsia;
+}
+
+/* chapitre tableau */
+.tableau {
+    margin: 50px;
+}
+
+/* chapitre menu */
+.section-title {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+
+.menus {
+    margin: 50px;
+}
+
+.best-meal {
+    background-color: red;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meal-box {
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+
+}
+
+.meal1 {
+    background-image: url(../images/chicken.jpg);
+}
+
+.meal2 {
+    background-image: url(../images/fried.jpg);
+}
+
+.meal3 {
+    background-image: url(../images/noodles.jpg);
+}
+
+.meal4 {
+    background-image: url(../images/pancakes.jpg);
+}
+
+.meal5 {
+    background-image: url(../images/turkey.jpg);
+}
+
+/* pied de page */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+    font-weight: 600;
+
+}
